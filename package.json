@@ -1,0 +1,25 @@
+{
+  "name": "@mrprim/react-dicier",
+  "version": "1.0.0",
+  "description": "A React wrapper for the Dicier font (designed by Speak the Sky - https://https://speakthesky.itch.io/typeface-dicier)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrprim/react-dicier.git"
+  },
+  "keywords": [
+    "font",
+    "dice",
+    "games",
+    "rpgs"
+  ],
+  "author": "Sergio Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrprim/react-dicier/issues"
+  },
+  "homepage": "https://github.com/mrprim/react-dicier#readme"
+}
