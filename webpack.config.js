@@ -1,7 +1,7 @@
 const path = require('path');
-
+const TerserPlugin = require('terser-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-const nodeExternals = require('webpack-node-externals');
+const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
   entry: './src/index.js',
@@ -25,5 +25,9 @@ module.exports = {
         include: path.resolve(__dirname, './src')
       }
     ]
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()]
   }
 }

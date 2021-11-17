@@ -1,7 +1,9 @@
 import React from 'react'
 import './index.scss'
 
-const DicierIcon = ({ children }) =>
-  <span className='dicier'>{children}</span>
+const DicierIcon = ({ children, ...params }) =>
+  <span className='dicier' {...params}>
+    {children}
+  </span>
 
 export default DicierIcon
