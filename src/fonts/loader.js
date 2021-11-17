@@ -1,9 +1,9 @@
 import * as modes from '../constants/modes'
 import * as weights from '../constants/weights'
 
-const loadFont = (mode = '', weight = '') => {
-  mode = mode.toLowerCase()
-  weight = weight.toLowerCase()
+const loadFont = (mode, weight) => {
+  mode = mode?.toLowerCase()
+  weight = weight?.toLowerCase()
 
   if (mode === modes.PIXEL) {
     import('./Dicier-Pixel.scss')
